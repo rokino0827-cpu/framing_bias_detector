@@ -1,0 +1,14 @@
+# 忽略常见的大模型权重文件
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.h5
+pytorch_model.bin
+model.safetensors
+
+# 可选：忽略其他临时或缓存文件
+__pycache__/
+*.pyc
+.venv/
+*.log
